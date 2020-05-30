@@ -12,7 +12,7 @@ class OknoPrzegranej : public QDialog
     Q_OBJECT
 
 public:
-    explicit OknoPrzegranej(QWidget *parent = nullptr);
+    explicit OknoPrzegranej(QWidget *parent = nullptr, int punkty = 0);
     ~OknoPrzegranej();
 
 private:

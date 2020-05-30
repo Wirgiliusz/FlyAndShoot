@@ -165,7 +165,7 @@ void OknoGry::ustawIloscZyc(int aktualneZycie)
             ui->labelZycia->setPixmap(pixmapTmp);
         }
 
-        OknoPrzegranej oknoPrzegranej;
+        OknoPrzegranej oknoPrzegranej(this, iloscPunktow);
         oknoPrzegranej.setModal(true);
         oknoPrzegranej.exec();
     break;

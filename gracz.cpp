@@ -65,7 +65,6 @@ void Gracz::advance(int step) {
         return;
     }
     else {
-        /* Do strzalek
         if(ruchGora) {
             posY = posY - speed;
         }
@@ -78,7 +77,6 @@ void Gracz::advance(int step) {
         if(ruchLewo) {
             posX = posX - speed;
         }
-        */
         posX = posX + predkoscY;
         posY = posY + predkoscX;
 
@@ -109,6 +107,8 @@ void Gracz::advance(int step) {
         if(collidingItems().size() > 1 && czasOdKolizji->elapsed() > czasNiesmiertelnosci) {
             QString currentDateTime = QDateTime::currentDateTime().toString("hh:mm:ss");
             qDebug() << currentDateTime << "Kolizja!";
+            iloscZycia--;
+            zmniejszenieZycia(iloscZycia);
             pixmapItem->setOpacity(0.5);
             czasOdKolizji->restart();
         }

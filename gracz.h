@@ -8,10 +8,12 @@
 #include <QDebug>
 #include <QPainter>
 #include <QDateTime>
+#include <QObject>
 
 
-class Gracz : public QGraphicsItem
+class Gracz : public QObject, public QGraphicsItem
 {
+    Q_OBJECT
 private:
     QGraphicsScene *scena;
     int posX;
@@ -23,6 +25,7 @@ private:
     bool ruchPrawo = false;
     bool ruchDol = false;
     bool ruchLewo = false;
+    int iloscZycia = 3;
 
 
     QGraphicsPixmapItem *pixmapItem;
@@ -40,6 +43,8 @@ public:
     QPixmap pixmap;
     bool wlasnieStrzelil = false;
 
+signals:
+    void zmniejszenieZycia(int atualneZycie);
 
 protected slots:
     void advance(int step) override;

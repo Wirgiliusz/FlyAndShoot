@@ -67,6 +67,7 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
 
     gracz = new Gracz(scene);
     scene->addItem(gracz);
+    QObject::connect(gracz, SIGNAL(zmniejszenieZycia(int)), this, SLOT(ustawIloscZyc(int)));
 
     // Stworzenie timera aktualizujacego obiekty na scenie
     timer = new QTimer(this);
@@ -139,6 +140,28 @@ void OknoGry::dodajPunkty() {
     if(czas > 10) {
         wykresX->scroll(x, 0);
         wykresY->scroll(x, 0);
+    }
+}
+
+void OknoGry::ustawIloscZyc(int aktualneZycie)
+{
+    QPixmap pixmapTmp;
+    switch(aktualneZycie) {
+    case 2:
+        if(pixmapTmp.load(":/icons/zycia2.png")) {
+            ui->labelZycia->setPixmap(pixmapTmp);
+        }
+    break;
+    case 1:
+        if(pixmapTmp.load(":/icons/zycia1.png")) {
+            ui->labelZycia->setPixmap(pixmapTmp);
+        }
+    break;
+    case 0:
+        if(pixmapTmp.load(":/icons/zycia0.png")) {
+            ui->labelZycia->setPixmap(pixmapTmp);
+        }
+    break;
     }
 }
 
@@ -217,29 +240,7 @@ void OknoGry::odebranieDanychAkcelerometru(int x, int y, int s)
     daneAccY = y;
     strzal = s;
     formatujDaneAkcelerometru();
-    //qDebug() << "Sformatowane dane z akcelerometru: " << this->accX << " " << this->accY << " " << this->strzal;
-    /* Ruch jak strzalkami
-    if(accX > 15) {
-        gracz->setRuch(gracz->gora, true);
-    } else {
-        gracz->setRuch(gracz->gora, false);
-    }
-    if(accX < -15) {
-        gracz->setRuch(gracz->dol, true);
-    } else {
-        gracz->setRuch(gracz->dol, false);
-    }
-    if(accY > 10) {
-        gracz->setRuch(gracz->prawo, true);
-    } else {
-        gracz->setRuch(gracz->prawo, false);
-    }
-    if(accY < -10) {
-        gracz->setRuch(gracz->lewo, true);
-    } else {
-        gracz->setRuch(gracz->lewo, false);
-    }
-    */
+
     // Kalibracja
     skalibrowaneAccX = accX + 5;
     skalibrowaneAccY = accY - 1;

@@ -40,6 +40,7 @@ public slots:
     void znajdzUsunPocisk(Pocisk *p);
     void odebranieDanychAkcelerometru(int x, int y, int s);
     void dodajPunkty();
+    void ustawIloscZyc(int aktualneZycie);
 
 private:
     Ui::OknoGry *ui;

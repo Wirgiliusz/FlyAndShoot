@@ -2,25 +2,36 @@
 #include "oknogry.h"
 
 
-Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v)
+Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
 {
     // Ustawienie wartosci poczatkowych
     scena = s;
     posX = _x;
-    posY = -100;
+    posY = -150;
     speed = _v;
     move = 150;
 
     // Wczytanie i zaladowanie obrazka przeszkody
     pixmapItem = new QGraphicsPixmapItem();
-    if(pixmap.load(":/images/przeszkoda1.png")) {
-        pixmapItem->setPixmap(pixmap);
-        pixmapItem->setPos(posX, posY);
-        scena->addItem(pixmapItem);
+
+    switch(typ) {
+    case 1:
+        pixmap.load(":/images/przeszkoda1.png");
+    break;
+    case 2:
+        pixmap.load(":/images/przeszkoda2.png");
+    break;
+    case 3:
+        pixmap.load(":/images/przeszkoda3.png");
+    break;
+    case 4:
+        pixmap.load(":/images/przeszkoda4.png");
+    break;
     }
-    else {
-        qDebug() << "Nie wczytano pixmapy przeszkody";
-    }
+    pixmapItem->setPixmap(pixmap);
+    pixmapItem->setPos(posX, posY);
+    scena->addItem(pixmapItem);
+
 
 }
 

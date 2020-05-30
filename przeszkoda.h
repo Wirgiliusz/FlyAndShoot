@@ -28,7 +28,7 @@ signals:
     void usunPrzeszkode(Przeszkoda *p, bool trafiona);
 
 public:
-    Przeszkoda(QGraphicsScene *s, int _x, int _v);
+    Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ);
     QGraphicsPixmapItem *pixmapItem;
     QRectF boundingRect() const override;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override ;

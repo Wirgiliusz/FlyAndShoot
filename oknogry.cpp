@@ -228,7 +228,7 @@ void OknoGry::ustawStanPolaczenia(bool stan)
 }
 
 void OknoGry::stworzPrzeszkode() {
-    Przeszkoda *p = new Przeszkoda(scene, generator->bounded(0, 800), generator->bounded(5, 20));
+    Przeszkoda *p = new Przeszkoda(scene, generator->bounded(0, 800), generator->bounded(5, 20), generator->bounded(0, 5));
     tabPrzeszkod.append(p);
     scene->addItem(p);
     QObject::connect(p, SIGNAL(usunPrzeszkode(Przeszkoda*, bool)), this, SLOT(znajdzUsunPrzeszkode(Przeszkoda*, bool)));

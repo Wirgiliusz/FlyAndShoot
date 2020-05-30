@@ -2,8 +2,10 @@
     <qresource prefix="/icons">
         <file>iconRed.png</file>
         <file>iconGreen.png</file>
-        <file>zyciePelne.png</file>
-        <file>zyciePuste.png</file>
+        <file>zycia0.png</file>
+        <file>zycia1.png</file>
+        <file>zycia2.png</file>
+        <file>zycia3.png</file>
     </qresource>
     <qresource prefix="/images">
         <file>player.png</file>

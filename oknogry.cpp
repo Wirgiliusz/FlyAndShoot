@@ -19,23 +19,30 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     ui->labelStanPolaczeniaIcon->setAlignment(Qt::AlignCenter);
 
     // Dodanie ikony informujacej o stanie polaczenia na status bar
-    QPixmap pixmap;
+    QPixmap pixmapTmp;
     if(polaczono) {
-        if(pixmap.load(":/icons/iconGreen.png")) {
-            ui->labelStanPolaczeniaIcon->setPixmap(pixmap);
+        if(pixmapTmp.load(":/icons/iconGreen.png")) {
+            ui->labelStanPolaczeniaIcon->setPixmap(pixmapTmp);
         }
         else {
             qDebug() << "Nie wczytano ikony";
         }
     }
     else {
-        if(pixmap.load(":/icons/iconRed.png")) {
-            ui->labelStanPolaczeniaIcon->setPixmap(pixmap);
+        if(pixmapTmp.load(":/icons/iconRed.png")) {
+            ui->labelStanPolaczeniaIcon->setPixmap(pixmapTmp);
         }
         else {
             qDebug() << "Nie wczytano ikony";
         }
     }
+    bar->addPermanentWidget(ui->labelZycia, 1);
+    ui->labelZycia->setAlignment(Qt::AlignCenter);
+
+    if(pixmapTmp.load(":/icons/zycia3.png")) {
+        ui->labelZycia->setPixmap(pixmapTmp);
+    }
+
 
     // Tworzenie sceny i obiektow
     ui->graphicsViewGra->installEventFilter(this);
@@ -133,18 +140,6 @@ void OknoGry::dodajPunkty() {
         wykresX->scroll(x, 0);
         wykresY->scroll(x, 0);
     }
-
-
-    /*
-    czas +=1;
-    if(czas > 10) {
-        wykresPunktyX->removePoints(0, 1);
-    }
-    wykresPunktyX->append(czas, accX);
-    osX->setRange(czas-10, czas);
-    //wykresX->scroll(100, 0);
-    */
-
 }
 
 OknoGry::~OknoGry()
@@ -178,7 +173,6 @@ void OknoGry::ustawStanPolaczenia(bool stan)
 }
 
 void OknoGry::stworzPrzeszkode() {
-    //Przeszkoda przeszkoda(scene, generator->bounded(0, 800), generator->bounded(5, 20));
     Przeszkoda *p = new Przeszkoda(scene, generator->bounded(0, 800), generator->bounded(5, 20));
     tabPrzeszkod.append(p);
     scene->addItem(p);

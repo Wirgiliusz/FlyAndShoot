@@ -1,6 +1,7 @@
 #include "oknogry.h"
 #include "ui_oknogry.h"
 #include "przeszkoda.h"
+#include "animacjaprzeszkody.h"
 #include <cmath>
 
 OknoGry::OknoGry(QWidget *parent, bool polaczono) :
@@ -247,8 +248,6 @@ void OknoGry::stworzPocisk() {
 
 
 void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
-    wyswietlAnimacjePrzeszkody(p);
-
     for(int i=0; i<tabPrzeszkod.size(); i++) {
         if(tabPrzeszkod[i] == p) {
             tabPrzeszkod.remove(i);
@@ -259,6 +258,7 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
 
     if(trafiona) {
         iloscPunktow += 50;
+        wyswietlAnimacjePrzeszkody(p);
     }
     else {
         iloscPunktow += 10;
@@ -266,11 +266,11 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
     zaktualizujPunkty();
 }
 
-void wyswietlAnimacjePrzeszkody(Przeszkoda *p) {
-    int posX = p->getPosX();
-    int posY = p->getPosY();
-    QPixmap pixmapTmp;
-
+void OknoGry::wyswietlAnimacjePrzeszkody(Przeszkoda *p) {
+    AnimacjaPrzeszkody *anim = new AnimacjaPrzeszkody(scene, p->getPosX(), p->getPosY(), p->getTyp());
+    tabAnimacji.append(anim);
+    scene->addItem(anim);
+    QObject::connect(anim, SIGNAL(usunAnimacje(AnimacjaPrzeszkody*)), this, SLOT(znajdzUsunAnimacje(AnimacjaPrzeszkody*)));
 }
 
 void OknoGry::usunWszystkieElementy() {
@@ -301,6 +301,17 @@ void OknoGry::znajdzUsunPocisk(Pocisk *p) {
             tabPociskow.remove(i);
             scene->removeItem(p->pixmapItem);
             p->deleteLater();
+        }
+    }
+}
+
+void OknoGry::znajdzUsunAnimacje(AnimacjaPrzeszkody *anim)
+{
+    for(int i=0; i<tabAnimacji.size(); i++) {
+        if(tabAnimacji[i] == anim) {
+            tabAnimacji.remove(i);
+            scene->removeItem(anim->pixmapItem);
+            anim->deleteLater();
         }
     }
 }

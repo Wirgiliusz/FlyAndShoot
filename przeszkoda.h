@@ -32,7 +32,8 @@ public:
     Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ);
     QGraphicsPixmapItem *pixmapItem;
     int getPosX() { return posX; }
-    int getPosT() { return posY; }
+    int getPosY() { return posY; }
+    int getTyp() { return typPrzeszkody; }
     QRectF boundingRect() const override;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override ;
 };

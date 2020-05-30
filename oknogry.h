@@ -5,6 +5,7 @@
 #include "pocisk.h"
 #include "gracz.h"
 #include "oknoprzegranej.h"
+#include "animacjaprzeszkody.h"
 
 #include <QDialog>
 #include <QStatusBar>
@@ -40,6 +41,7 @@ public slots:
     void stworzPocisk();
     void znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona);
     void znajdzUsunPocisk(Pocisk *p);
+    void znajdzUsunAnimacje(AnimacjaPrzeszkody *anim);
     void odebranieDanychAkcelerometru(int x, int y, int s);
     void dodajPunkty();
     void ustawIloscZyc(int aktualneZycie);
@@ -58,6 +60,8 @@ private:
 
     QVector<Przeszkoda*> tabPrzeszkod;
     QVector<Pocisk*> tabPociskow;
+    QVector<AnimacjaPrzeszkody*> tabAnimacji;
+
     Gracz *gracz;
     int iloscPunktow;
     void zaktualizujPunkty();

@@ -4,6 +4,8 @@
 #include "przeszkoda.h"
 #include "pocisk.h"
 #include "gracz.h"
+#include "oknoprzegranej.h"
+
 #include <QDialog>
 #include <QStatusBar>
 #include <QGraphicsScene>

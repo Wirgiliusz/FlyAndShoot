@@ -86,10 +86,8 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     osY = new QValueAxis();
     osX2 = new QValueAxis();
     osY2 = new QValueAxis();
-    //wykresPunktyX = new QSplineSeries(this);
     wykresPunktyX = new QLineSeries(this);
     wykresPunktyX->append(0,0);
-    //wykresPunktyY = new QSplineSeries(this);
     wykresPunktyY = new QLineSeries(this);
     wykresPunktyY->append(0,0);
 
@@ -134,7 +132,6 @@ void OknoGry::dodajPunkty() {
     qreal x = wykresX->plotArea().width() / (osX->tickCount()-1);
     qreal y = (osX->max() - osX->min()) / (osX->tickCount()-1);
     czas += y;
-    //qDebug() << skalibrowaneAccX;
     wykresPunktyX->append(czas, skalibrowaneAccX);
     wykresPunktyY->append(czas, skalibrowaneAccY);
     if(czas > 10) {
@@ -161,6 +158,10 @@ void OknoGry::ustawIloscZyc(int aktualneZycie)
         if(pixmapTmp.load(":/icons/zycia0.png")) {
             ui->labelZycia->setPixmap(pixmapTmp);
         }
+
+        OknoPrzegranej oknoPrzegranej;
+        oknoPrzegranej.setModal(true);
+        oknoPrzegranej.exec();
     break;
     }
 }

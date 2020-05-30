@@ -23,6 +23,7 @@ SOURCES += \
     mainwindow.cpp \
     oknogry.cpp \
     oknopolaczenia.cpp \
+    oknoprzegranej.cpp \
     pocisk.cpp \
     przeszkoda.cpp
 
@@ -31,13 +32,15 @@ HEADERS += \
     mainwindow.h \
     oknogry.h \
     oknopolaczenia.h \
+    oknoprzegranej.h \
     pocisk.h \
     przeszkoda.h
 
 FORMS += \
     mainwindow.ui \
     oknogry.ui \
-    oknopolaczenia.ui
+    oknopolaczenia.ui \
+    oknoprzegranej.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

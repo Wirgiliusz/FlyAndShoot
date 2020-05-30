@@ -43,9 +43,11 @@ public slots:
     void odebranieDanychAkcelerometru(int x, int y, int s);
     void dodajPunkty();
     void ustawIloscZyc(int aktualneZycie);
+    void zresetujGre();
 
 private:
     Ui::OknoGry *ui;
+    void usunWszystkieElementy();
     QStatusBar *bar;
     QTimer *timer;
     QTimer *timerSpawn;
@@ -56,7 +58,7 @@ private:
     QVector<Przeszkoda*> tabPrzeszkod;
     QVector<Pocisk*> tabPociskow;
     Gracz *gracz;
-    int iloscPunktow = 0;
+    int iloscPunktow;
     void zaktualizujPunkty();
 
     int daneAccX;
@@ -72,7 +74,7 @@ private:
     QChart *wykresX;
     QChart *wykresY;
     QTimer *timerCzasuWykresu;
-    int czas = 0;
+    int czas;
     QLineSeries *wykresPunktyX;
     QLineSeries *wykresPunktyY;
     QValueAxis *osX;

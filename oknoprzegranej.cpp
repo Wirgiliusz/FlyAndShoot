@@ -14,3 +14,9 @@ OknoPrzegranej::~OknoPrzegranej()
 {
     delete ui;
 }
+
+void OknoPrzegranej::on_pushButtonZagrajPonownie_clicked()
+{
+    restartGry();
+    close();
+}

@@ -72,6 +72,7 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     timerSpawn->start(1500);
 
     gracz = new Gracz(scene);
+    iloscPunktow = 0;
     scene->addItem(gracz);
     QObject::connect(gracz, SIGNAL(zmniejszenieZycia(int)), this, SLOT(ustawIloscZyc(int)));
 
@@ -81,6 +82,7 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     timer->start(1000 / 33);
 
     // Stworzenie zakladki z wykresami
+    czas = 0;
     int szerokoscWykresu = 800;
     int wysokoscWykresu = 300;
     ui->graphicsViewWykresX->setFixedSize(szerokoscWykresu, wysokoscWykresu);
@@ -166,10 +168,31 @@ void OknoGry::ustawIloscZyc(int aktualneZycie)
         }
 
         OknoPrzegranej oknoPrzegranej(this, iloscPunktow);
+        timerSpawn->stop();
+        connect(&oknoPrzegranej, SIGNAL(restartGry()), this, SLOT(zresetujGre()));
         oknoPrzegranej.setModal(true);
         oknoPrzegranej.exec();
     break;
     }
+}
+
+void OknoGry::zresetujGre()
+{
+    usunWszystkieElementy();
+
+    gracz = new Gracz(scene);
+    iloscPunktow = 0;
+    scene->addItem(gracz);
+    QObject::connect(gracz, SIGNAL(zmniejszenieZycia(int)), this, SLOT(ustawIloscZyc(int)));
+
+    QPixmap pixmapTmp;
+    if(pixmapTmp.load(":/icons/zycia3.png")) {
+        ui->labelZycia->setPixmap(pixmapTmp);
+    }
+
+    ui->labelPunkty->setText("000000");
+
+    timerSpawn->start(1500);
 }
 
 OknoGry::~OknoGry()
@@ -236,6 +259,23 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
         iloscPunktow += 10;
     }
     zaktualizujPunkty();
+}
+
+void OknoGry::usunWszystkieElementy() {
+    while(tabPrzeszkod.size() != 0) {
+        scene->removeItem(tabPrzeszkod[0]->pixmapItem);
+        tabPrzeszkod[0]->deleteLater();
+        tabPrzeszkod.remove(0);
+    }
+
+    while(tabPociskow.size() != 0) {
+        scene->removeItem(tabPociskow[0]->pixmapItem);
+        tabPociskow[0]->deleteLater();
+        tabPociskow.remove(0);
+    }
+
+    scene->removeItem(gracz->pixmapItem);
+    gracz->deleteLater();
 }
 
 void OknoGry::zaktualizujPunkty() {

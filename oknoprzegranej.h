@@ -17,6 +17,14 @@ public:
 
 private:
     Ui::OknoPrzegranej *ui;
+
+private slots:
+    void on_pushButtonZagrajPonownie_clicked();
+
+signals:
+    void restartGry();
 };
+
+
 
 #endif // OKNOPRZEGRANEJ_H

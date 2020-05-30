@@ -2,11 +2,11 @@
  Projekt wykorzystujący akcelerometr jako kontroler do gry w aplikacji Qt
 
 ## TODO
-- [ ] 1. System żyć
+- [x] 1. System żyć
     - [x] a. Grafika pokazująca aktualną ilość żyć
     - [x] b. System obsługujący aktualną liczbę życia
     - [x] c. Ekran przegranej
-    - [ ] d. Restart gry
+    - [x] d. Restart gry
 - [x] 2. Punkty
     - [x] a. Tekst pokazujący liczbę punktów
     - [x] b. System obsługujący punkty

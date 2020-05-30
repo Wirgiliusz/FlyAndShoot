@@ -19,6 +19,7 @@ private:
     int move;
     QPixmap pixmap;
     bool doUsuniecia = false;
+    int typPrzeszkody;
 
 
 protected slots:
@@ -30,6 +31,8 @@ signals:
 public:
     Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ);
     QGraphicsPixmapItem *pixmapItem;
+    int getPosX() { return posX; }
+    int getPosT() { return posY; }
     QRectF boundingRect() const override;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override ;
 };

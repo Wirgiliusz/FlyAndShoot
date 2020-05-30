@@ -54,6 +54,7 @@ private:
     QRandomGenerator *generator;
 
     QGraphicsScene *scene;
+    void wyswietlAnimacjePrzeszkody(Przeszkoda *p);
 
     QVector<Przeszkoda*> tabPrzeszkod;
     QVector<Pocisk*> tabPociskow;

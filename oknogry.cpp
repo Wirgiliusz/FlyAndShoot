@@ -247,6 +247,8 @@ void OknoGry::stworzPocisk() {
 
 
 void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
+    wyswietlAnimacjePrzeszkody(p);
+
     for(int i=0; i<tabPrzeszkod.size(); i++) {
         if(tabPrzeszkod[i] == p) {
             tabPrzeszkod.remove(i);
@@ -254,6 +256,7 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
             p->deleteLater();
         }
     }
+
     if(trafiona) {
         iloscPunktow += 50;
     }
@@ -261,6 +264,13 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
         iloscPunktow += 10;
     }
     zaktualizujPunkty();
+}
+
+void wyswietlAnimacjePrzeszkody(Przeszkoda *p) {
+    int posX = p->getPosX();
+    int posY = p->getPosY();
+    QPixmap pixmapTmp;
+
 }
 
 void OknoGry::usunWszystkieElementy() {

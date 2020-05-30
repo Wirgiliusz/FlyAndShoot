@@ -10,6 +10,7 @@ Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
     posY = -150;
     speed = _v;
     move = 150;
+    typPrzeszkody = typ;
 
     // Wczytanie i zaladowanie obrazka przeszkody
     pixmapItem = new QGraphicsPixmapItem();

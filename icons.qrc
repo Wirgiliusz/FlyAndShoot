@@ -2,6 +2,8 @@
     <qresource prefix="/icons">
         <file>iconRed.png</file>
         <file>iconGreen.png</file>
+        <file>zyciePelne.png</file>
+        <file>zyciePuste.png</file>
     </qresource>
     <qresource prefix="/images">
         <file>player.png</file>
@@ -9,5 +11,6 @@
         <file>przeszkoda2.png</file>
         <file>przeszkoda3.png</file>
         <file>pocisk.png</file>
+        <file>przeszkoda4.png</file>
     </qresource>
 </RCC>

@@ -40,15 +40,13 @@ void Przeszkoda::advance(int step) {
     }
     else {
         if(doUsuniecia) {
-            usunPrzeszkode(this);
+            usunPrzeszkode(this, true);
         }
         if(collidingItems().size() > 1) {
             doUsuniecia = true;
         }
         if(posY > 800) {
-            usunPrzeszkode(this);
-            //posY = -100;
-            //posX = posX + move;
+            usunPrzeszkode(this, false);
         }
         if(posX > 800) {
             posX = 0;

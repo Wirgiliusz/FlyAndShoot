@@ -16,6 +16,11 @@
   <layout class="QGridLayout" name="gridLayout">
    <item row="5" column="0">
     <widget class="QPushButton" name="pushButtonZagrajPonownie">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>Zagraj ponownie</string>
      </property>

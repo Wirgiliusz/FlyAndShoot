@@ -25,7 +25,7 @@ protected slots:
     void advance(int step) override;
 
 signals:
-    void usunPrzeszkode(Przeszkoda *p);
+    void usunPrzeszkode(Przeszkoda *p, bool trafiona);
 
 public:
     Przeszkoda(QGraphicsScene *s, int _x, int _v);

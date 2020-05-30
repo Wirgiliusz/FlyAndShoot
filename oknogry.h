@@ -38,7 +38,7 @@ public slots:
     void ustawStanPolaczenia(bool stan);
     void stworzPrzeszkode();
     void stworzPocisk();
-    void znajdzUsunPrzeszkode(Przeszkoda *p);
+    void znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona);
     void znajdzUsunPocisk(Pocisk *p);
     void odebranieDanychAkcelerometru(int x, int y, int s);
     void dodajPunkty();
@@ -56,6 +56,8 @@ private:
     QVector<Przeszkoda*> tabPrzeszkod;
     QVector<Pocisk*> tabPociskow;
     Gracz *gracz;
+    int iloscPunktow = 0;
+    void zaktualizujPunkty();
 
     int daneAccX;
     int daneAccY;

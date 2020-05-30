@@ -36,6 +36,8 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
             qDebug() << "Nie wczytano ikony";
         }
     }
+
+    // Dodanie ikony zyc na status bar
     bar->addPermanentWidget(ui->labelZycia, 1);
     ui->labelZycia->setAlignment(Qt::AlignCenter);
 
@@ -43,6 +45,10 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
         ui->labelZycia->setPixmap(pixmapTmp);
     }
 
+    // Dodanie ilosci punktow na status bar
+    bar->addPermanentWidget(ui->labelPunkty);
+    ui->labelPunkty->setAlignment(Qt::AlignLeft);
+    ui->labelPunkty->setText("000000");
 
     // Tworzenie sceny i obiektow
     ui->graphicsViewGra->installEventFilter(this);
@@ -200,7 +206,7 @@ void OknoGry::stworzPrzeszkode() {
     Przeszkoda *p = new Przeszkoda(scene, generator->bounded(0, 800), generator->bounded(5, 20));
     tabPrzeszkod.append(p);
     scene->addItem(p);
-    QObject::connect(p, SIGNAL(usunPrzeszkode(Przeszkoda*)), this, SLOT(znajdzUsunPrzeszkode(Przeszkoda*)));
+    QObject::connect(p, SIGNAL(usunPrzeszkode(Przeszkoda*, bool)), this, SLOT(znajdzUsunPrzeszkode(Przeszkoda*, bool)));
     QString currentDateTime = QDateTime::currentDateTime().toString("hh:mm:ss");
     qDebug() << currentDateTime << "Stworzono przeszkode";
 }
@@ -215,7 +221,7 @@ void OknoGry::stworzPocisk() {
 }
 
 
-void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p) {
+void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p, bool trafiona) {
     for(int i=0; i<tabPrzeszkod.size(); i++) {
         if(tabPrzeszkod[i] == p) {
             tabPrzeszkod.remove(i);
@@ -223,6 +229,21 @@ void OknoGry::znajdzUsunPrzeszkode(Przeszkoda *p) {
             p->deleteLater();
         }
     }
+    if(trafiona) {
+        iloscPunktow += 50;
+    }
+    else {
+        iloscPunktow += 10;
+    }
+    zaktualizujPunkty();
+}
+
+void OknoGry::zaktualizujPunkty() {
+    QString punktyStringInt = QString::number(iloscPunktow);
+    while(punktyStringInt.length() < 6) {
+        punktyStringInt = "0" + punktyStringInt;
+    }
+    ui->labelPunkty->setText(punktyStringInt);
 }
 
 void OknoGry::znajdzUsunPocisk(Pocisk *p) {

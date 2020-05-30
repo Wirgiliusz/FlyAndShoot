@@ -3,12 +3,13 @@
 
 ## TODO
 - [ ] 1. System żyć
-    - [ ] a. Grafika pokazująca aktualną ilość żyć
-    - [ ] b. System obsługujący aktualną liczbę życia
-    - [ ] c. Ekran przegranej
-- [ ] 2. Punkty
-    - [ ] a. Tekst pokazujący liczbę punktów
-    - [ ] b. System obsługujący punkty
+    - [x] a. Grafika pokazująca aktualną ilość żyć
+    - [x] b. System obsługujący aktualną liczbę życia
+    - [x] c. Ekran przegranej
+    - [ ] d. Restart gry
+- [x] 2. Punkty
+    - [x] a. Tekst pokazujący liczbę punktów
+    - [x] b. System obsługujący punkty
 - [ ] 3. Grafika
     - [ ] a. Dodanie różnych grafik dla przeszkód
     - [ ] b. Animacja otrzymania obrażeń przez gracza

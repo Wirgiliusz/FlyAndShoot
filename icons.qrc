@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>iconRed.png</file>
+        <file>iconGreen.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>player.png</file>
+        <file>przeszkoda1.png</file>
+        <file>przeszkoda2.png</file>
+        <file>przeszkoda3.png</file>
+        <file>pocisk.png</file>
+    </qresource>
+</RCC>

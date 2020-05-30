@@ -169,6 +169,8 @@ void OknoGry::ustawIloscZyc(int aktualneZycie)
 
         OknoPrzegranej oknoPrzegranej(this, iloscPunktow);
         timerSpawn->stop();
+        scene->removeItem(gracz->pixmapItem);
+        gracz->deleteLater();
         connect(&oknoPrzegranej, SIGNAL(restartGry()), this, SLOT(zresetujGre()));
         oknoPrzegranej.setModal(true);
         oknoPrzegranej.exec();
@@ -273,9 +275,6 @@ void OknoGry::usunWszystkieElementy() {
         tabPociskow[0]->deleteLater();
         tabPociskow.remove(0);
     }
-
-    scene->removeItem(gracz->pixmapItem);
-    gracz->deleteLater();
 }
 
 void OknoGry::zaktualizujPunkty() {

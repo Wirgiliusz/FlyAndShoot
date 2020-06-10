@@ -13,13 +13,16 @@
 - [ ] 3. Grafika
     - [x] a. Dodanie różnych grafik dla przeszkód
     - [ ] b. Animacja otrzymania obrażeń przez gracza
-    - [ ] c. Animacja zniszczenia przeszkody
+    - [x] c. Animacja zniszczenia przeszkody
         - [x] - przeszkoda1
-        - [ ] - przeszkoda2
-        - [ ] - przeszkoda3
-        - [ ] - przeszkoda4
+        - [x] - przeszkoda2
+        - [x] - przeszkoda3
+        - [x] - przeszkoda4
     - [ ] d. Tło 
     - [ ] e. Podpisanie osi na wykresach
 - [ ] 4. Dokumentacja
     - [ ] a. Zainstalowanie i skonfigurowanie Doxygena
     - [ ] b. Opisanie kodu według schematu
+- [ ] 5. Poprawki
+    - [ ] a. Zablokowanie przycisku w połączeniu
+    - [ ] b. Zablokować możliwość zamknięcia okna restartu gry

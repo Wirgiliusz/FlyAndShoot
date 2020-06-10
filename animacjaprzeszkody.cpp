@@ -14,13 +14,13 @@ AnimacjaPrzeszkody::AnimacjaPrzeszkody(QGraphicsScene *s, int x, int y, int typ)
         pixmap.load(":/images/przeszkoda1_zniszczenie1.png");
     break;
     case 2:
-        //pixmap.load(":/images/przeszkoda2.png");
+        pixmap.load(":/images/przeszkoda2_zniszczenie1.png");
     break;
     case 3:
-        //pixmap.load(":/images/przeszkoda3.png");
+        pixmap.load(":/images/przeszkoda3_zniszczenie1.png");
     break;
     case 4:
-        //pixmap.load(":/images/przeszkoda4.png");
+        pixmap.load(":/images/przeszkoda4_zniszczenie1.png");
     break;
     }
     pixmapItem->setPixmap(pixmap);
@@ -29,7 +29,7 @@ AnimacjaPrzeszkody::AnimacjaPrzeszkody(QGraphicsScene *s, int x, int y, int typ)
 
     timerKlatek = new QTimer(this);
     connect(timerKlatek, SIGNAL(timeout()), this, SLOT(kolejnaKlatka()));
-    timerKlatek->start(50);
+    timerKlatek->start(20);
 
     klatka++;
 }
@@ -49,6 +49,63 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
             break;
             case 4:
                 pixmap.load(":/images/przeszkoda1_zniszczenie5.png");
+            break;
+            case 5:
+                usunAnimacje(this);
+            break;
+        }
+    }
+    else if(typPrzeszkody == 2) {
+        switch(klatka) {
+            case 1:
+                pixmap.load(":/images/przeszkoda2_zniszczenie2.png");
+            break;
+            case 2:
+                pixmap.load(":/images/przeszkoda2_zniszczenie3.png");
+            break;
+            case 3:
+                pixmap.load(":/images/przeszkoda2_zniszczenie4.png");
+            break;
+            case 4:
+                pixmap.load(":/images/przeszkoda2_zniszczenie5.png");
+            break;
+            case 5:
+                usunAnimacje(this);
+            break;
+        }
+    }
+    else if(typPrzeszkody == 3) {
+        switch(klatka) {
+            case 1:
+                pixmap.load(":/images/przeszkoda3_zniszczenie2.png");
+            break;
+            case 2:
+                pixmap.load(":/images/przeszkoda3_zniszczenie3.png");
+            break;
+            case 3:
+                pixmap.load(":/images/przeszkoda3_zniszczenie4.png");
+            break;
+            case 4:
+                pixmap.load(":/images/przeszkoda3_zniszczenie5.png");
+            break;
+            case 5:
+                usunAnimacje(this);
+            break;
+        }
+    }
+    else if(typPrzeszkody == 4) {
+        switch(klatka) {
+            case 1:
+                pixmap.load(":/images/przeszkoda4_zniszczenie2.png");
+            break;
+            case 2:
+                pixmap.load(":/images/przeszkoda4_zniszczenie3.png");
+            break;
+            case 3:
+                pixmap.load(":/images/przeszkoda4_zniszczenie4.png");
+            break;
+            case 4:
+                pixmap.load(":/images/przeszkoda4_zniszczenie5.png");
             break;
             case 5:
                 usunAnimacje(this);

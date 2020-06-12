@@ -24,6 +24,16 @@
 - [ ] 4. Dokumentacja
     - [ ] a. Zainstalowanie i skonfigurowanie Doxygena
     - [ ] b. Opisanie kodu według schematu
+        - [x] animacjaprzeszkody.h/.cpp
+        - [x] gracz.h/.cpp
+        - [ ] mainwindow.h/.cpp
+        - [ ] oknogry.h/.cpp
+        - [ ] oknopolaczenia.h/.cpp
+        - [ ] oknoprzegranej.h/.cpp
+        - [ ] pocisk.h/.cpp
+        - [ ] przeszkoda.h/.cpp
+        - [ ] tlo.h/.cpp
+        - [ ] main.cpp
 - [x] 5. Poprawki
     - [x] a. Zablokowanie przycisku w połączeniu
     - [x] b. Zablokować możliwość zamknięcia okna restartu gry

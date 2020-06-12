@@ -1,4 +1,13 @@
+/*!
+* \file
+* \brief Implementacja metod klasy AnimacjaPrzeszkody
+*
+* Plik zawiera implementację metod klasy
+* AnimacjaPrzeszkody.
+*/
+
 #include "animacjaprzeszkody.h"
+
 
 AnimacjaPrzeszkody::AnimacjaPrzeszkody(QGraphicsScene *s, int x, int y, int typ)
 {
@@ -133,7 +142,6 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
     klatka++;
 }
 
-// Reimplementacja funkcji wirtualnych klasy QGraphicsItem
 QRectF AnimacjaPrzeszkody::boundingRect() const {
     return QRectF(0,0,0,0);
 }

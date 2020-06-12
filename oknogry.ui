@@ -180,7 +180,7 @@
        <property name="font">
         <font>
          <family>Courier New</family>
-         <pointsize>14</pointsize>
+         <pointsize>24</pointsize>
         </font>
        </property>
        <property name="text">

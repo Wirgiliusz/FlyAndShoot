@@ -1,6 +1,6 @@
 /*!
 * \file
-* \brief Implementacja metod klasy AnimacjaPrzeszkody
+* \brief Implementacja metod klasy AnimacjaPrzeszkody.
 *
 * Plik zawiera implementację metod klasy
 * AnimacjaPrzeszkody.
@@ -142,10 +142,8 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
     klatka++;
 }
 
-QRectF AnimacjaPrzeszkody::boundingRect() const {
-    return QRectF(0,0,0,0);
-}
-
+// Reimplementacja funkcji wirtualnych klasy QGraphicsItem
+QRectF AnimacjaPrzeszkody::boundingRect() const { return QRectF(0,0,0,0); }
 void AnimacjaPrzeszkody::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
     painter = nullptr; option = nullptr; widget = nullptr;
 }

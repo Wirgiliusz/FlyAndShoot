@@ -27,8 +27,6 @@ class AnimacjaPrzeszkody : public QObject, public QGraphicsItem {
     Q_OBJECT
 
 public:
-    QGraphicsPixmapItem *pixmapItem;
-
     /*!
     * \brief Konstruktor klasy AnimacjaPrzeszkody
     *
@@ -57,6 +55,14 @@ public:
     * Jest nadpisaniem funkcji wirtualnej z klasy QGraphicsItem.
     */
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override ;
+
+    /*!
+    * \brief Wskaźnik na obiekt grafiki.
+    *
+    * Pole zawiera wskaźnik na obiekt grafiki.
+    * Pozwala na dodanie go do sceny i wyświetlenie.
+    */
+    QGraphicsPixmapItem *pixmapItem;
 
 private:
     /*!

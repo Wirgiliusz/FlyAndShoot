@@ -9,7 +9,6 @@
         <file>flyandshoot_icon.ico</file>
     </qresource>
     <qresource prefix="/images">
-        <file>player.png</file>
         <file>pocisk.png</file>
         <file>przeszkoda1.png</file>
         <file>przeszkoda1_zniszczenie1.png</file>
@@ -35,9 +34,7 @@
         <file>przeszkoda4_zniszczenie3.png</file>
         <file>przeszkoda4_zniszczenie4.png</file>
         <file>przeszkoda4_zniszczenie5.png</file>
-        <file>tlo.png</file>
         <file>tlo2.png</file>
-        <file>player2.png</file>
         <file>player3.png</file>
         <file>player3-1.png</file>
         <file>player3-2.png</file>
@@ -45,6 +42,5 @@
         <file>player3-1_uszkodzenie2.png</file>
         <file>player3-2_uszkodzenie1.png</file>
         <file>player3-2_uszkodzenie2.png</file>
-        <file>button-graj.png</file>
     </qresource>
 </RCC>

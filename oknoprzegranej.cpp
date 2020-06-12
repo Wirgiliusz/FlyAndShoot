@@ -6,6 +6,7 @@ OknoPrzegranej::OknoPrzegranej(QWidget *parent, int punkty) :
     ui(new Ui::OknoPrzegranej)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Dialog | Qt::Desktop);
 
     ui->labelIloscPunktow->setText(QString::number(punkty));
 }

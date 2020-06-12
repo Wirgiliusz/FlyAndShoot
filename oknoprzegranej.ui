@@ -16,7 +16,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>FlyAndShoot - koniec gry</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="5" column="0">

@@ -12,6 +12,8 @@ OknoPolaczenia::OknoPolaczenia(QWidget *parent) :
 {
     ui->setupUi(this);
     this->device = new QSerialPort(this);
+
+    ui->pushButtonCloseConnection->setEnabled(false);
 }
 
 OknoPolaczenia::~OknoPolaczenia()
@@ -55,6 +57,8 @@ void OknoPolaczenia::on_pushButtonConnect_clicked()
             this->device->setFlowControl(QSerialPort::NoFlowControl);
 
             this->addToLogs("Otwarto port szeregowy.");
+            ui->pushButtonConnect->setEnabled(false);
+            ui->pushButtonCloseConnection->setEnabled(true);
 
             // CONNECT - odczytywanie z portu
             connect(this->device, SIGNAL(readyRead()), this, SLOT(readFromPort()));
@@ -162,6 +166,8 @@ void OknoPolaczenia::on_pushButtonCloseConnection_clicked()
         zmianaStanuPolaczenia(false);
         this->device->close();
         this->addToLogs("Zamknięto połączenie.");
+        ui->pushButtonCloseConnection->setEnabled(false);
+        ui->pushButtonConnect->setEnabled(true);
     }
     else {
         this->addToLogs("Port nie jest otwarty!");

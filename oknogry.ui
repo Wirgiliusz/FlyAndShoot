@@ -82,7 +82,7 @@
          <item row="0" column="0">
           <widget class="QGraphicsView" name="graphicsViewGra">
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
           </widget>
          </item>

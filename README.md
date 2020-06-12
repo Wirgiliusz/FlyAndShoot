@@ -12,7 +12,7 @@
     - [x] b. System obsługujący punkty
 - [ ] 3. Grafika
     - [x] a. Dodanie różnych grafik dla przeszkód
-    - [ ] b. Animacja otrzymania obrażeń przez gracza
+    - [x] b. Animacja otrzymania obrażeń przez gracza
     - [x] c. Animacja zniszczenia przeszkody
         - [x] - przeszkoda1
         - [x] - przeszkoda2
@@ -20,7 +20,7 @@
         - [x] - przeszkoda4
     - [x] d. Tło 
     - [ ] e. Podpisanie osi na wykresach
-    - [ ] f. Ikona gry
+    - [x] f. Ikona gry
 - [ ] 4. Dokumentacja
     - [ ] a. Zainstalowanie i skonfigurowanie Doxygena
     - [ ] b. Opisanie kodu według schematu

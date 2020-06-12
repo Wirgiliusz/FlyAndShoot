@@ -29,7 +29,7 @@ AnimacjaPrzeszkody::AnimacjaPrzeszkody(QGraphicsScene *s, int x, int y, int typ)
 
     timerKlatek = new QTimer(this);
     connect(timerKlatek, SIGNAL(timeout()), this, SLOT(kolejnaKlatka()));
-    timerKlatek->start(20);
+    timerKlatek->start(30);
 
     klatka++;
 }
@@ -40,15 +40,19 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
         switch(klatka) {
             case 1:
                 pixmap.load(":/images/przeszkoda1_zniszczenie2.png");
+                pixmapItem->setOpacity(0.9);
             break;
             case 2:
                 pixmap.load(":/images/przeszkoda1_zniszczenie3.png");
+                pixmapItem->setOpacity(0.7);
             break;
             case 3:
                 pixmap.load(":/images/przeszkoda1_zniszczenie4.png");
+                pixmapItem->setOpacity(0.5);
             break;
             case 4:
                 pixmap.load(":/images/przeszkoda1_zniszczenie5.png");
+                pixmapItem->setOpacity(0.3);
             break;
             case 5:
                 usunAnimacje(this);
@@ -59,15 +63,19 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
         switch(klatka) {
             case 1:
                 pixmap.load(":/images/przeszkoda2_zniszczenie2.png");
+                pixmapItem->setOpacity(0.9);
             break;
             case 2:
                 pixmap.load(":/images/przeszkoda2_zniszczenie3.png");
+                pixmapItem->setOpacity(0.7);
             break;
             case 3:
                 pixmap.load(":/images/przeszkoda2_zniszczenie4.png");
+                pixmapItem->setOpacity(0.5);
             break;
             case 4:
                 pixmap.load(":/images/przeszkoda2_zniszczenie5.png");
+                pixmapItem->setOpacity(0.3);
             break;
             case 5:
                 usunAnimacje(this);
@@ -78,15 +86,19 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
         switch(klatka) {
             case 1:
                 pixmap.load(":/images/przeszkoda3_zniszczenie2.png");
+                pixmapItem->setOpacity(0.9);
             break;
             case 2:
                 pixmap.load(":/images/przeszkoda3_zniszczenie3.png");
+                pixmapItem->setOpacity(0.7);
             break;
             case 3:
                 pixmap.load(":/images/przeszkoda3_zniszczenie4.png");
+                pixmapItem->setOpacity(0.5);
             break;
             case 4:
                 pixmap.load(":/images/przeszkoda3_zniszczenie5.png");
+                pixmapItem->setOpacity(0.3);
             break;
             case 5:
                 usunAnimacje(this);
@@ -97,15 +109,19 @@ void AnimacjaPrzeszkody::kolejnaKlatka()
         switch(klatka) {
             case 1:
                 pixmap.load(":/images/przeszkoda4_zniszczenie2.png");
+                pixmapItem->setOpacity(0.9);
             break;
             case 2:
                 pixmap.load(":/images/przeszkoda4_zniszczenie3.png");
+                pixmapItem->setOpacity(0.7);
             break;
             case 3:
                 pixmap.load(":/images/przeszkoda4_zniszczenie4.png");
+                pixmapItem->setOpacity(0.5);
             break;
             case 4:
                 pixmap.load(":/images/przeszkoda4_zniszczenie5.png");
+                pixmapItem->setOpacity(0.3);
             break;
             case 5:
                 usunAnimacje(this);

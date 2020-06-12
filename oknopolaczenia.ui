@@ -7,8 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>671</width>
-    <height>282</height>
+    <height>424</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Courier New</family>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Fly and Shoot - połączenie</string>
@@ -18,7 +23,8 @@
     <widget class="QGroupBox" name="groupBox">
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <family>Courier New</family>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="title">
@@ -29,7 +35,8 @@
        <widget class="QPushButton" name="pushButtonConnect">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Courier New</family>
+          <pointsize>12</pointsize>
          </font>
         </property>
         <property name="text">
@@ -41,7 +48,8 @@
        <widget class="QPushButton" name="pushButtonSearch">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Courier New</family>
+          <pointsize>12</pointsize>
          </font>
         </property>
         <property name="text">
@@ -53,7 +61,8 @@
        <widget class="QPushButton" name="pushButtonCloseConnection">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Courier New</family>
+          <pointsize>12</pointsize>
          </font>
         </property>
         <property name="text">
@@ -65,7 +74,8 @@
        <widget class="QComboBox" name="comboBoxDevices">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Courier New</family>
+          <pointsize>12</pointsize>
          </font>
         </property>
        </widget>
@@ -77,7 +87,8 @@
     <widget class="QGroupBox" name="groupBox_2">
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <family>Courier New</family>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="title">
@@ -85,13 +96,21 @@
      </property>
      <layout class="QGridLayout" name="gridLayout_4">
       <item row="0" column="0">
-       <widget class="QTextEdit" name="textEditLogs"/>
+       <widget class="QTextEdit" name="textEditLogs">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+       </widget>
       </item>
       <item row="1" column="0">
        <widget class="QPushButton" name="pushButtonLogsClear">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Courier New</family>
+          <pointsize>12</pointsize>
          </font>
         </property>
         <property name="text">

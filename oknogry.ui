@@ -10,6 +10,11 @@
     <height>900</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>Courier New</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Fly and Shoot - gra</string>
   </property>
@@ -39,6 +44,7 @@
        </property>
        <property name="font">
         <font>
+         <family>Courier New</family>
          <pointsize>12</pointsize>
         </font>
        </property>
@@ -58,11 +64,12 @@
       <widget class="QTabWidget" name="tabWidget">
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="currentIndex">
-        <number>0</number>
+        <number>1</number>
        </property>
        <widget class="QWidget" name="tabGra">
         <attribute name="title">
@@ -103,6 +110,12 @@
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>18</pointsize>
+            </font>
            </property>
            <property name="text">
             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Wykresy danych z akcelerometru&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -166,7 +179,8 @@
       <widget class="QLabel" name="labelPunkty">
        <property name="font">
         <font>
-         <pointsize>18</pointsize>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="text">

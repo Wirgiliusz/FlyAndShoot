@@ -44,5 +44,6 @@
         <file>player3-1_uszkodzenie2.png</file>
         <file>player3-2_uszkodzenie1.png</file>
         <file>player3-2_uszkodzenie2.png</file>
+        <file>button-graj.png</file>
     </qresource>
 </RCC>

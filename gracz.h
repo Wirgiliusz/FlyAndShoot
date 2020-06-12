@@ -27,6 +27,8 @@ private:
     bool ruchLewo = false;
     int iloscZycia = 3;
 
+    int klatka = 0;
+
     QElapsedTimer *czasOdKolizji;
     int czasNiesmiertelnosci = 1500;
 
@@ -38,6 +40,11 @@ public:
     int getPosX() {return posX;}
     int getPosY() {return posY;}
     QPixmap pixmap;
+    QPixmap pixmap2;
+    QPixmap pixmap_zniszczony1;
+    QPixmap pixmap2_zniszczony1;
+    QPixmap pixmap_zniszczony2;
+    QPixmap pixmap2_zniszczony2;
     QGraphicsPixmapItem *pixmapItem;
     bool wlasnieStrzelil = false;
 

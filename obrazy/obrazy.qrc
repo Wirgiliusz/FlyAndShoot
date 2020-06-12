@@ -38,5 +38,11 @@
         <file>tlo2.png</file>
         <file>player2.png</file>
         <file>player3.png</file>
+        <file>player3-1.png</file>
+        <file>player3-2.png</file>
+        <file>player3-1_uszkodzenie1.png</file>
+        <file>player3-1_uszkodzenie2.png</file>
+        <file>player3-2_uszkodzenie1.png</file>
+        <file>player3-2_uszkodzenie2.png</file>
     </qresource>
 </RCC>

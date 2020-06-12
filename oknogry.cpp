@@ -66,6 +66,10 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     ui->graphicsViewGra->setFixedSize(szerokosc, wysokosc);
     ui->graphicsViewGra->setSceneRect(0, 0, szerokosc, wysokosc);
 
+    // Stworzenie tla
+    tlo = new Tlo(scene, -1000);
+    scene->addItem(tlo);
+
     // Tworzenie obiektow w losowych miejscach
     generator = new QRandomGenerator;
     timerSpawn = new QTimer(this);
@@ -238,7 +242,7 @@ void OknoGry::stworzPrzeszkode() {
 }
 
 void OknoGry::stworzPocisk() {
-    Pocisk *p = new Pocisk(scene, gracz->getPosX()+gracz->pixmap.width()/2, gracz->getPosY()-50);
+    Pocisk *p = new Pocisk(scene, (gracz->getPosX()+gracz->pixmap.width()/2)-5, gracz->getPosY()-25);
     tabPociskow.append(p);
     scene->addItem(p);
     QObject::connect(p, SIGNAL(usunPocisk(Pocisk*)), this, SLOT(znajdzUsunPocisk(Pocisk*)));

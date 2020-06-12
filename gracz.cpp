@@ -14,7 +14,7 @@ Gracz::Gracz(QGraphicsScene *s)
     // Zaladowanie i dodanie obrazka gracza
     pixmapItem = new QGraphicsPixmapItem();
 
-    if(pixmap.load(":/images/player.png")) {
+    if(pixmap.load(":/images/player3.png")) {
         pixmapItem->setPixmap(pixmap);
         pixmapItem->setPos(posX, posY);
         scena->addItem(pixmapItem);
@@ -104,7 +104,7 @@ void Gracz::advance(int step) {
         //pixmapItem->setPos(posX, posY);
 
         // Sprawdzenie kolizji
-        if(collidingItems().size() > 1 && czasOdKolizji->elapsed() > czasNiesmiertelnosci) {
+        if(collidingItems().size() > 3 && czasOdKolizji->elapsed() > czasNiesmiertelnosci) {
             QString currentDateTime = QDateTime::currentDateTime().toString("hh:mm:ss");
             qDebug() << currentDateTime << "Kolizja!";
             iloscZycia--;

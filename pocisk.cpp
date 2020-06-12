@@ -35,7 +35,7 @@ void Pocisk::advance(int step) {
         if(doUsuniecia) {
             usunPocisk(this);
         }
-        if(collidingItems().size() > 1) {
+        if(collidingItems().size() > 3) {
             doUsuniecia = true;
         }
         if(posY < -800) {

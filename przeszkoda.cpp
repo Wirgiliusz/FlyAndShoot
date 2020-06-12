@@ -2,6 +2,7 @@
 #include "oknogry.h"
 
 
+
 Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
 {
     // Ustawienie wartosci poczatkowych
@@ -54,7 +55,7 @@ void Przeszkoda::advance(int step) {
         if(doUsuniecia) {
             usunPrzeszkode(this, true);
         }
-        if(collidingItems().size() > 1) {
+        if(collidingItems().size() > 3) {
             doUsuniecia = true;
         }
         if(posY > 800) {

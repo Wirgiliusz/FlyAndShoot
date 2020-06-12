@@ -21,7 +21,6 @@ private:
     bool doUsuniecia = false;
     int typPrzeszkody;
 
-
 protected slots:
     void advance(int step) override;
 

@@ -26,7 +26,8 @@ SOURCES += \
     oknopolaczenia.cpp \
     oknoprzegranej.cpp \
     pocisk.cpp \
-    przeszkoda.cpp
+    przeszkoda.cpp \
+    tlo.cpp
 
 HEADERS += \
     animacjaprzeszkody.h \
@@ -36,7 +37,8 @@ HEADERS += \
     oknopolaczenia.h \
     oknoprzegranej.h \
     pocisk.h \
-    przeszkoda.h
+    przeszkoda.h \
+    tlo.h
 
 FORMS += \
     mainwindow.ui \
@@ -50,4 +52,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    icons.qrc
+    obrazy/obrazy.qrc

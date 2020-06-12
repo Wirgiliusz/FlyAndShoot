@@ -6,6 +6,7 @@
 #include "gracz.h"
 #include "oknoprzegranej.h"
 #include "animacjaprzeszkody.h"
+#include "tlo.h"
 
 #include <QDialog>
 #include <QStatusBar>
@@ -61,6 +62,8 @@ private:
     QVector<Przeszkoda*> tabPrzeszkod;
     QVector<Pocisk*> tabPociskow;
     QVector<AnimacjaPrzeszkody*> tabAnimacji;
+
+    Tlo* tlo;
 
     Gracz *gracz;
     int iloscPunktow;

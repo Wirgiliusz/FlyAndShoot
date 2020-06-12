@@ -68,6 +68,9 @@
          <pointsize>14</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="currentIndex">
         <number>0</number>
        </property>
@@ -77,7 +80,11 @@
         </attribute>
         <layout class="QGridLayout" name="gridLayout_3">
          <item row="0" column="0">
-          <widget class="QGraphicsView" name="graphicsViewGra"/>
+          <widget class="QGraphicsView" name="graphicsViewGra">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>

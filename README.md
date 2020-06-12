@@ -18,7 +18,7 @@
         - [x] - przeszkoda2
         - [x] - przeszkoda3
         - [x] - przeszkoda4
-    - [ ] d. Tło 
+    - [x] d. Tło 
     - [ ] e. Podpisanie osi na wykresach
 - [ ] 4. Dokumentacja
     - [ ] a. Zainstalowanie i skonfigurowanie Doxygena

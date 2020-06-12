@@ -20,9 +20,10 @@
         - [x] - przeszkoda4
     - [x] d. Tło 
     - [ ] e. Podpisanie osi na wykresach
+    - [ ] f. Ikona gry
 - [ ] 4. Dokumentacja
     - [ ] a. Zainstalowanie i skonfigurowanie Doxygena
     - [ ] b. Opisanie kodu według schematu
-- [ ] 5. Poprawki
-    - [ ] a. Zablokowanie przycisku w połączeniu
-    - [ ] b. Zablokować możliwość zamknięcia okna restartu gry
+- [x] 5. Poprawki
+    - [x] a. Zablokowanie przycisku w połączeniu
+    - [x] b. Zablokować możliwość zamknięcia okna restartu gry

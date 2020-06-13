@@ -26,8 +26,8 @@
     - [ ] b. Opisanie kodu według schematu
         - [x] animacjaprzeszkody.h/.cpp
         - [x] gracz.h/.cpp
-        - [ ] mainwindow.h/.cpp
-        - [ ] oknogry.h/.cpp
+        - [x] mainwindow.h/.cpp
+        - [x] oknogry.h/.cpp
         - [ ] oknopolaczenia.h/.cpp
         - [ ] oknoprzegranej.h/.cpp
         - [ ] pocisk.h/.cpp

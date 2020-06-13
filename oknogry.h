@@ -62,7 +62,7 @@ public:
 
 private:
     /*!
-    * \brief Wskaźnik ui.
+    * \brief Wskaźnik na ui.
     *
     * Pole zawiera wskaźnik na ui,
     * na którym umieszczone są widgety.
@@ -418,6 +418,7 @@ public slots:
     * \param[in] x - wartość wychylenia w osi OX.
     * \param[in] y - wartość wychylenia w osi OY.
     * \param[in] s - wartość naciśnięcia przycisku strzału.
+    * Jednostki nieokreślone.
     */
     void odebranieDanychAkcelerometru(int x, int y, int s);
 

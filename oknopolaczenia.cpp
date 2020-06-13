@@ -1,3 +1,11 @@
+/*!
+* \file
+* \brief Implementacja metod klasy OknoPolaczenia.
+*
+* Plik zawiera implementację metod klasy
+* OknoPolaczenia.
+*/
+
 #include "oknopolaczenia.h"
 #include "ui_oknopolaczenia.h"
 #include "mainwindow.h"
@@ -5,6 +13,7 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
+
 
 OknoPolaczenia::OknoPolaczenia(QWidget *parent) :
     QDialog(parent),
@@ -106,7 +115,6 @@ unsigned int OknoPolaczenia::CRC8_SingleByte(unsigned int Data2) {
 byte OknoPolaczenia::CRC8_DataArray(byte *pData, byte Len) {
   unsigned int Data2 = pData[0] << 8;
 
-  // zmienic poczatek na 0 w arduino (z 1)
   for(unsigned int idx=0; idx<Len; ++idx) {
     Data2 |= pData[idx];
     Data2 = CRC8_SingleByte(Data2);

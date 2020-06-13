@@ -1,4 +1,13 @@
+/*!
+* \file
+* \brief Implementacja metod klasy Pocisk.
+*
+* Plik zawiera implementację metod klasy
+* Pocisk.
+*/
+
 #include "pocisk.h"
+
 
 Pocisk::Pocisk(QGraphicsScene *s, int x, int y)
 {

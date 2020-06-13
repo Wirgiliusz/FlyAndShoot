@@ -3,7 +3,7 @@
 
 /*!
 * \file
-* \brief Definicja klasy Gracz
+* \brief Definicja klasy Gracz.
 *
 * Plik zawiera definicję klasy Gracz, która
 * odpowiada za obiekt gracza.
@@ -20,7 +20,7 @@
 
 
 /*!
-* \brief Implementuje obiekt gracza
+* \brief Implementuje obiekt gracza.
 *
 * Klasa odpowiada za obiekt gracza.
 */
@@ -29,17 +29,17 @@ class Gracz : public QObject, public QGraphicsItem {
 
 public:
     /*!
-    * \brief Konstruktor klasy Gracz
+    * \brief Konstruktor klasy Gracz.
     *
     * Inicjalizuje gracza na zadanej scenie.
-    * \param[in] *s - wskaźnik na scenę, na której ma pojawić się animacja.
+    * \param[in] *s - wskaźnik na scenę, na której ma pojawić się gracz.
     */
     Gracz(QGraphicsScene *s);
 
     /*!
     * \brief Rodzaj ruchu, który ma wykonać gracz.
     *
-    * Wartość tego typu służy do poruszanai graczem,
+    * Wartość tego typu służy do poruszania graczem,
     * przy pomocy strzałek.
     */
     enum Kierunki {

@@ -1,0 +1,10 @@
+<map id="OknoGry::stworzPrzeszkode" name="OknoGry::stworzPrzeszkode">
+<area shape="rect" id="node1" title="Slot tworzący nową przeszkodę." alt="" coords="5,111,195,137"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a1467e674eae95feb864fb8c3ead7b4f4" title="Slot znajdujący i usuwający przeszkodę." alt="" coords="243,111,461,137"/>
+<area shape="rect" id="node3" href="$class_okno_gry.html#a849ecaaa57077a5f5e595b40befc4ae4" title="Metoda wyświetlająca animacje przeszkody." alt="" coords="509,74,695,115"/>
+<area shape="rect" id="node8" href="$class_okno_gry.html#abbff6cb98f08b5bc55c1d54bd56d39f3" title="Metoda aktualizująca punkty gracza." alt="" coords="509,140,695,167"/>
+<area shape="rect" id="node4" href="$class_przeszkoda.html#a63385d5ea54d34ee73d8c72fad04ce62" title="Zwraca pozycje przeszkody w osi OX." alt="" coords="771,5,918,32"/>
+<area shape="rect" id="node5" href="$class_przeszkoda.html#adb7b3b2d44ee423afd21725b8c518dd4" title="Zwraca pozycje przeszkody w osi OY." alt="" coords="770,56,919,83"/>
+<area shape="rect" id="node6" href="$class_przeszkoda.html#a94baf77af3af903b07af2cb598a4e707" title="Zwraca typ przeszkody." alt="" coords="775,107,914,133"/>
+<area shape="rect" id="node7" href="$class_okno_gry.html#aaede9faaf7d75e94a72728815539feb1" title="Slot znajdujący i usuwająy animację." alt="" coords="743,157,947,184"/>
+</map>

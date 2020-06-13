@@ -1,0 +1,4 @@
+<map id="OknoGry::stworzPocisk" name="OknoGry::stworzPocisk">
+<area shape="rect" id="node1" title="Slot tworzący nowy pocisk." alt="" coords="236,13,396,39"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a46a5610170d4f65c9b79c30303daddaa" title="Slot odbierający dane z akcelerometru." alt="" coords="5,5,188,47"/>
+</map>

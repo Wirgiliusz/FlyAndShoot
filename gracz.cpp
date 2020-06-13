@@ -1,3 +1,11 @@
+/*!
+* \file
+* \brief Implementacja metod klasy Gracz.
+*
+* Plik zawiera implementację metod klasy
+* Gracz.
+*/
+
 #include "gracz.h"
 
 
@@ -31,13 +39,6 @@ Gracz::Gracz(QGraphicsScene *s)
     czasOdKolizji->start();
 }
 
-// Reimplementacja funkcji wirtualnych klasy QGraphicsItem
-QRectF Gracz::boundingRect() const { return QRectF(posX, posY, pixmap.width(), pixmap.height()); }
-void Gracz::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
-    painter = nullptr; option = nullptr; widget = nullptr;
-}
-
-// Ustawienie ruchu gracza w zaleznosci od wcisnietego kierunku
 void Gracz::setRuch(enum Kierunki kierunek, bool stan)
 {
     switch(kierunek) {
@@ -62,7 +63,6 @@ void Gracz::setPredkosc(int Vx, int Vy)
     predkoscY = Vy;
 }
 
-// Funkcja uaktualniajaca pozycje gracza
 void Gracz::advance(int step) {
     if(step == 0) {
         return;
@@ -133,7 +133,6 @@ void Gracz::advance(int step) {
         } else {
             posY = 100;
         }
-        //pixmapItem->setPos(posX, posY);
 
         // Sprawdzenie kolizji
         if(collidingItems().size() > 3 && czasOdKolizji->elapsed() > czasNiesmiertelnosci) {
@@ -149,4 +148,10 @@ void Gracz::advance(int step) {
             pixmapItem->setOpacity(1);
         }
     }
+}
+
+// Reimplementacja funkcji wirtualnych klasy QGraphicsItem
+QRectF Gracz::boundingRect() const { return QRectF(posX, posY, pixmap.width(), pixmap.height()); }
+void Gracz::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
+    painter = nullptr; option = nullptr; widget = nullptr;
 }

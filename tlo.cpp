@@ -1,4 +1,13 @@
+/*!
+* \file
+* \brief Implementacja metod klasy Tlo.
+*
+* Plik zawiera implementację metod klasy
+* Tlo.
+*/
+
 #include "tlo.h"
+
 
 Tlo::Tlo(QGraphicsScene *s, int y)
 {

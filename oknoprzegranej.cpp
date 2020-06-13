@@ -1,5 +1,14 @@
+/*!
+* \file
+* \brief Implementacja metod klasy OknoPrzegranej.
+*
+* Plik zawiera implementację metod klasy
+* OknoPrzegranej.
+*/
+
 #include "oknoprzegranej.h"
 #include "ui_oknoprzegranej.h"
+
 
 OknoPrzegranej::OknoPrzegranej(QWidget *parent, int punkty) :
     QDialog(parent),

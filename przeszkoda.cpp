@@ -1,6 +1,13 @@
+/*!
+* \file
+* \brief Implementacja metod klasy Przeszkoda.
+*
+* Plik zawiera implementację metod klasy
+* Przeszkoda.
+*/
+
 #include "przeszkoda.h"
 #include "oknogry.h"
-
 
 
 Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
@@ -10,7 +17,6 @@ Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
     posX = _x;
     posY = -150;
     speed = _v;
-    move = 150;
     typPrzeszkody = typ;
 
     // Wczytanie i zaladowanie obrazka przeszkody
@@ -33,8 +39,6 @@ Przeszkoda::Przeszkoda(QGraphicsScene *s, int _x, int _v, int typ)
     pixmapItem->setPixmap(pixmap);
     pixmapItem->setPos(posX, posY);
     scena->addItem(pixmapItem);
-
-
 }
 
 // Reimplementacja funkcji wirtualnych klasy QGraphicsItem

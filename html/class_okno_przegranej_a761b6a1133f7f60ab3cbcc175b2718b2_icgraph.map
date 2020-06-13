@@ -1,0 +1,4 @@
+<map id="OknoPrzegranej::restartGry" name="OknoPrzegranej::restartGry">
+<area shape="rect" id="node1" title="Sygnał restartu gry.." alt="" coords="240,20,421,47"/>
+<area shape="rect" id="node2" href="$class_okno_przegranej.html#a3fc60faf06165c8dbee51e9584ab87dc" title="Slot obsłgujący przycisk zagraj ponownie." alt="" coords="5,5,192,61"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MainWindow::on_pushButtonGraj_clicked" name="MainWindow::on_pushButtonGraj_clicked">
+<area shape="rect" id="node1" title="Slot obsłgujący przycisk gry." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a864c569b7925e19dec0a1a0a7662b53e" title="Slot obsługujący zmianę stanu połączenia." alt="" coords="244,13,473,39"/>
+</map>

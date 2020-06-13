@@ -1,0 +1,8 @@
+<map id="OknoGry" name="OknoGry">
+<area shape="rect" id="node1" title="Implementacja obiektu okna gry." alt="" coords="89,171,163,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,73,108"/>
+<area shape="rect" id="node3" href="$class_tlo.html" title="Implementuje obiekt tła." alt="" coords="179,81,217,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="76,5,147,32"/>
+<area shape="rect" id="node6" href="$class_gracz.html" title="Implementuje obiekt gracza." alt="" coords="97,81,155,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="171,5,281,32"/>
+</map>

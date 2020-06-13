@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,73,83"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html" title="Implementacja obiektu okna gry." alt="" coords="143,5,217,32"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html" title="Implementacja obiektu okna gry." alt="" coords="121,56,239,83"/>
+<area shape="rect" id="node4" href="$class_okno_przegranej.html" title="Implementacja obiektu okna przegranej." alt="" coords="123,107,237,133"/>
+</map>

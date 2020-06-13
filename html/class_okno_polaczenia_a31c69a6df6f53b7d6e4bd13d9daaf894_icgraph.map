@@ -1,7 +1,7 @@
 <map id="OknoPolaczenia::addToLogs" name="OknoPolaczenia::addToLogs">
-<area shape="rect" id="node1" title=" " alt="" coords="496,115,684,141"/>
-<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a1c174dcdc77108d80477e9f2f15a8904" title=" " alt="" coords="249,5,443,61"/>
-<area shape="rect" id="node3" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title=" " alt="" coords="5,137,196,178"/>
-<area shape="rect" id="node4" href="$class_okno_polaczenia.html#ac9af0c898a8bad265a53f01dfb14b1a5" title=" " alt="" coords="254,137,438,178"/>
-<area shape="rect" id="node5" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title=" " alt="" coords="244,203,448,229"/>
+<area shape="rect" id="node1" title="Metoda tworząca log." alt="" coords="496,115,684,141"/>
+<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a1c174dcdc77108d80477e9f2f15a8904" title="Slot obsłgujący przycisk rozłączenia." alt="" coords="249,5,443,61"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title="Slot obsłgujący przycisk połączenia." alt="" coords="5,137,196,178"/>
+<area shape="rect" id="node4" href="$class_okno_polaczenia.html#ac9af0c898a8bad265a53f01dfb14b1a5" title="Slot obsłgujący przycisk szukania." alt="" coords="254,137,438,178"/>
+<area shape="rect" id="node5" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title="Slot obsłgujący odczyt danych." alt="" coords="244,203,448,229"/>
 </map>

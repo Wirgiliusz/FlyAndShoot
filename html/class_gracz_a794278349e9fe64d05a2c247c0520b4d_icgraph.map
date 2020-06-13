@@ -1,4 +1,4 @@
 <map id="Gracz::setRuch" name="Gracz::setRuch">
 <area shape="rect" id="node1" title="Ustawia ruch gracza." alt="" coords="195,5,308,32"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a1811de6f0e42fb07342e8738852b296b" title=" " alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a1811de6f0e42fb07342e8738852b296b" title="Metoda przechwytująca kliknięcia." alt="" coords="5,5,147,32"/>
 </map>

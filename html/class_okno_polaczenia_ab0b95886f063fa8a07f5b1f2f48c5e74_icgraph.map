@@ -1,6 +1,6 @@
 <map id="OknoPolaczenia::hexStr" name="OknoPolaczenia::hexStr">
-<area shape="rect" id="node1" title=" " alt="" coords="747,13,909,39"/>
-<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title=" " alt="" coords="496,5,699,47"/>
-<area shape="rect" id="node3" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title=" " alt="" coords="244,13,448,39"/>
-<area shape="rect" id="node4" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title=" " alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node1" title="Metoda konwertuje podane dane na hex." alt="" coords="747,13,909,39"/>
+<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title="Metoda parsująca ramkę danych." alt="" coords="496,5,699,47"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title="Slot obsłgujący odczyt danych." alt="" coords="244,13,448,39"/>
+<area shape="rect" id="node4" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title="Slot obsłgujący przycisk połączenia." alt="" coords="5,5,196,47"/>
 </map>

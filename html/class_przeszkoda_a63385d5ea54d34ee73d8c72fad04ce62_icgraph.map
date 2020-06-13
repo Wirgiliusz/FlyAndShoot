@@ -1,7 +1,7 @@
 <map id="Przeszkoda::getPosX" name="Przeszkoda::getPosX">
-<area shape="rect" id="node1" title=" " alt="" coords="925,13,1072,39"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a849ecaaa57077a5f5e595b40befc4ae4" title=" " alt="" coords="692,5,877,47"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#a1467e674eae95feb864fb8c3ead7b4f4" title=" " alt="" coords="425,13,644,39"/>
-<area shape="rect" id="node4" href="$class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a" title=" " alt="" coords="188,13,377,39"/>
-<area shape="rect" id="node5" href="$class_okno_gry.html#a25cae4da99ebd210096d50ce4bdb434e" title=" " alt="" coords="5,13,140,39"/>
+<area shape="rect" id="node1" title="Zwraca pozycje przeszkody w osi OX." alt="" coords="925,13,1072,39"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a849ecaaa57077a5f5e595b40befc4ae4" title="Metoda wyświetlająca animacje przeszkody." alt="" coords="692,5,877,47"/>
+<area shape="rect" id="node3" href="$class_okno_gry.html#a1467e674eae95feb864fb8c3ead7b4f4" title="Slot znajdujący i usuwający przeszkodę." alt="" coords="425,13,644,39"/>
+<area shape="rect" id="node4" href="$class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a" title="Slot tworzący nową przeszkodę." alt="" coords="188,13,377,39"/>
+<area shape="rect" id="node5" href="$class_okno_gry.html#a25cae4da99ebd210096d50ce4bdb434e" title="Konstruktor klasy OknoGry." alt="" coords="5,13,140,39"/>
 </map>

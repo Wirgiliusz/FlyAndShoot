@@ -1,5 +1,5 @@
 <map id="MainWindow::ustawStanPolaczenia" name="MainWindow::ustawStanPolaczenia">
-<area shape="rect" id="node1" title=" " alt="" coords="244,35,473,61"/>
-<area shape="rect" id="node2" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="11,5,190,32"/>
-<area shape="rect" id="node3" href="$class_main_window.html#a6c2c3a52742ef57f277f69316784c384" title=" " alt="" coords="5,57,196,98"/>
+<area shape="rect" id="node1" title="Slot obsługujący zmianę stanu połączenia." alt="" coords="244,35,473,61"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title="Konstruktor klasy MainWindow." alt="" coords="11,5,190,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a6c2c3a52742ef57f277f69316784c384" title="Slot obsłgujący przycisk gry." alt="" coords="5,57,196,98"/>
 </map>

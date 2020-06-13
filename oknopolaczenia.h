@@ -24,7 +24,6 @@ class OknoPolaczenia;
 }
 
 /*!
-* \file
 * \brief Implementacja obiektu okna gry.
 *
 * Klasa odpowieda za obiekt okna gry.

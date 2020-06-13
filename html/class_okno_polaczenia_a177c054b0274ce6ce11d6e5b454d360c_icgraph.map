@@ -1,7 +1,7 @@
 <map id="OknoPolaczenia::CRC8_SingleByte" name="OknoPolaczenia::CRC8_SingleByte">
-<area shape="rect" id="node1" title=" " alt="" coords="953,5,1112,47"/>
-<area shape="rect" id="node2" href="$class_okno_polaczenia.html#ac7ca1d6e231d49828e5952250e8aedf6" title=" " alt="" coords="747,5,905,47"/>
-<area shape="rect" id="node3" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title=" " alt="" coords="496,5,699,47"/>
-<area shape="rect" id="node4" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title=" " alt="" coords="244,13,448,39"/>
-<area shape="rect" id="node5" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title=" " alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node1" title="Metoda licząca CRC8 dla jednogo bajtu." alt="" coords="953,5,1112,47"/>
+<area shape="rect" id="node2" href="$class_okno_polaczenia.html#ac7ca1d6e231d49828e5952250e8aedf6" title="Metoda licząca CRC8 dla tablicy danych." alt="" coords="747,5,905,47"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title="Metoda parsująca ramkę danych." alt="" coords="496,5,699,47"/>
+<area shape="rect" id="node4" href="$class_okno_polaczenia.html#acb74c1ffb8b484134a57c97e8402dc84" title="Slot obsłgujący odczyt danych." alt="" coords="244,13,448,39"/>
+<area shape="rect" id="node5" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title="Slot obsłgujący przycisk połączenia." alt="" coords="5,5,196,47"/>
 </map>

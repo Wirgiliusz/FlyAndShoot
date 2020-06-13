@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Fly and Shoot - dokumentacja", "index.html", [
+  [ "Fly and Shoot", "index.html", [
     [ "FlyAndShoot", "md__r_e_a_d_m_e.html", [
       [ "TO-DO", "md__r_e_a_d_m_e.html#autotoc_md1", null ]
     ] ],

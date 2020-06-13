@@ -9,7 +9,6 @@ var class_przeszkoda =
     [ "paint", "class_przeszkoda.html#aa923cc641c92a31e933fb7044d92fcff", null ],
     [ "usunPrzeszkode", "class_przeszkoda.html#a85a5c644393f8fbc2fc5ba3b2734c919", null ],
     [ "doUsuniecia", "class_przeszkoda.html#a10701130d2ff6054d7ba25915d775f3b", null ],
-    [ "move", "class_przeszkoda.html#a35d688a4f41fd212c52443f1c69b6b34", null ],
     [ "pixmap", "class_przeszkoda.html#acf3665c2de79f2eb0efb1e36ad9f82a8", null ],
     [ "pixmapItem", "class_przeszkoda.html#adb1eb141259cba30f27e9e8ff2f8b76a", null ],
     [ "posX", "class_przeszkoda.html#a893c8782558167f9fa811f14a3f0d277", null ],

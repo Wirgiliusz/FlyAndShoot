@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['setpredkosc_218',['setPredkosc',['../class_gracz.html#a708f5521f7bf0338758ec283e3940f00',1,'Gracz']]],
-  ['setruch_219',['setRuch',['../class_gracz.html#a794278349e9fe64d05a2c247c0520b4d',1,'Gracz']]],
-  ['stworzpocisk_220',['stworzPocisk',['../class_okno_gry.html#a32c8031502704480f8feabc33a47e64c',1,'OknoGry']]],
-  ['stworzprzeszkode_221',['stworzPrzeszkode',['../class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a',1,'OknoGry']]]
+  ['setpredkosc_209',['setPredkosc',['../class_gracz.html#a708f5521f7bf0338758ec283e3940f00',1,'Gracz']]],
+  ['setruch_210',['setRuch',['../class_gracz.html#a794278349e9fe64d05a2c247c0520b4d',1,'Gracz']]],
+  ['stworzpocisk_211',['stworzPocisk',['../class_okno_gry.html#a32c8031502704480f8feabc33a47e64c',1,'OknoGry']]],
+  ['stworzprzeszkode_212',['stworzPrzeszkode',['../class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a',1,'OknoGry']]]
 ];

@@ -1,8 +1,8 @@
 <map id="OknoPolaczenia::readFromPort" name="OknoPolaczenia::readFromPort">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,209,61"/>
-<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a31c69a6df6f53b7d6e4bd13d9daaf894" title=" " alt="" coords="265,5,453,32"/>
-<area shape="rect" id="node3" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title=" " alt="" coords="257,57,460,98"/>
-<area shape="rect" id="node4" href="$class_okno_polaczenia.html#ac7ca1d6e231d49828e5952250e8aedf6" title=" " alt="" coords="510,27,669,69"/>
-<area shape="rect" id="node6" href="$class_okno_polaczenia.html#ab0b95886f063fa8a07f5b1f2f48c5e74" title=" " alt="" coords="508,93,671,120"/>
-<area shape="rect" id="node5" href="$class_okno_polaczenia.html#a177c054b0274ce6ce11d6e5b454d360c" title=" " alt="" coords="719,27,877,69"/>
+<area shape="rect" id="node1" title="Slot obsłgujący odczyt danych." alt="" coords="5,35,209,61"/>
+<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a31c69a6df6f53b7d6e4bd13d9daaf894" title="Metoda tworząca log." alt="" coords="265,5,453,32"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html#a86849ae48befa704092bc19fde8aad63" title="Metoda parsująca ramkę danych." alt="" coords="257,57,460,98"/>
+<area shape="rect" id="node4" href="$class_okno_polaczenia.html#ac7ca1d6e231d49828e5952250e8aedf6" title="Metoda licząca CRC8 dla tablicy danych." alt="" coords="510,27,669,69"/>
+<area shape="rect" id="node6" href="$class_okno_polaczenia.html#ab0b95886f063fa8a07f5b1f2f48c5e74" title="Metoda konwertuje podane dane na hex." alt="" coords="508,93,671,120"/>
+<area shape="rect" id="node5" href="$class_okno_polaczenia.html#a177c054b0274ce6ce11d6e5b454d360c" title="Metoda licząca CRC8 dla jednogo bajtu." alt="" coords="719,27,877,69"/>
 </map>

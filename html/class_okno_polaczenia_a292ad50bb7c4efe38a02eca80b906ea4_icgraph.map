@@ -1,5 +1,5 @@
 <map id="OknoPolaczenia::zmianaStanuPolaczenia" name="OknoPolaczenia::zmianaStanuPolaczenia">
-<area shape="rect" id="node1" title=" " alt="" coords="247,50,448,91"/>
-<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a1c174dcdc77108d80477e9f2f15a8904" title=" " alt="" coords="5,5,199,61"/>
-<area shape="rect" id="node3" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title=" " alt="" coords="7,86,197,127"/>
+<area shape="rect" id="node1" title="Sygnał zmiany stanu połączenia." alt="" coords="247,50,448,91"/>
+<area shape="rect" id="node2" href="$class_okno_polaczenia.html#a1c174dcdc77108d80477e9f2f15a8904" title="Slot obsłgujący przycisk rozłączenia." alt="" coords="5,5,199,61"/>
+<area shape="rect" id="node3" href="$class_okno_polaczenia.html#aedf5eaf342d6444b8a42e6aa4bf5ad3e" title="Slot obsłgujący przycisk połączenia." alt="" coords="7,86,197,127"/>
 </map>

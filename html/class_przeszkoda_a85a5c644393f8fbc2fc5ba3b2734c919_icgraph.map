@@ -1,4 +1,4 @@
 <map id="Przeszkoda::usunPrzeszkode" name="Przeszkoda::usunPrzeszkode">
-<area shape="rect" id="node1" title=" " alt="" coords="200,5,396,32"/>
-<area shape="rect" id="node2" href="$class_przeszkoda.html#ace2198c10286721ff1553df3159308b0" title=" " alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" title="Sygnał usuwający przeszkodę." alt="" coords="200,5,396,32"/>
+<area shape="rect" id="node2" href="$class_przeszkoda.html#ace2198c10286721ff1553df3159308b0" title="Slot aktualizujący pozycję na scenie." alt="" coords="5,5,152,32"/>
 </map>

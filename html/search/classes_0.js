@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['animacjaprzeszkody_148',['AnimacjaPrzeszkody',['../class_animacja_przeszkody.html',1,'']]]
+  ['animacjaprzeszkody_143',['AnimacjaPrzeszkody',['../class_animacja_przeszkody.html',1,'']]]
 ];

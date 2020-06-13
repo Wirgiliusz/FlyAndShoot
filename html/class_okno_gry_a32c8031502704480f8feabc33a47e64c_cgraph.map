@@ -1,6 +1,6 @@
 <map id="OknoGry::stworzPocisk" name="OknoGry::stworzPocisk">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node1" title="Slot tworzący nowy pocisk." alt="" coords="5,56,165,83"/>
 <area shape="rect" id="node2" href="$class_gracz.html#ac4041378e97b327d37bc0cfb792846c5" title="Zwraca pozycje gracz w osi OX." alt="" coords="252,5,365,32"/>
 <area shape="rect" id="node3" href="$class_gracz.html#ad03002bfd86ce4982954539d5a59639a" title="Zwraca pozycje gracz w osi OY." alt="" coords="251,56,366,83"/>
-<area shape="rect" id="node4" href="$class_okno_gry.html#af99362d9a15591f3a4cbf3838d0cf53d" title=" " alt="" coords="213,107,404,133"/>
+<area shape="rect" id="node4" href="$class_okno_gry.html#af99362d9a15591f3a4cbf3838d0cf53d" title="Slot znajdujący i usuwający pocisk." alt="" coords="213,107,404,133"/>
 </map>

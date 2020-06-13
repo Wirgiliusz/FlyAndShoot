@@ -1,7 +1,6 @@
 var annotated_dup =
 [
     [ "AnimacjaPrzeszkody", "class_animacja_przeszkody.html", "class_animacja_przeszkody" ],
-    [ "GameWindow", "class_game_window.html", "class_game_window" ],
     [ "Gracz", "class_gracz.html", "class_gracz" ],
     [ "MainWindow", "class_main_window.html", "class_main_window" ],
     [ "OknoGry", "class_okno_gry.html", "class_okno_gry" ],

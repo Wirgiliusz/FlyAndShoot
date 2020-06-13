@@ -1,7 +1,6 @@
 var hierarchy =
 [
     [ "QDialog", null, [
-      [ "GameWindow", "class_game_window.html", null ],
       [ "OknoGry", "class_okno_gry.html", null ],
       [ "OknoPolaczenia", "class_okno_polaczenia.html", null ],
       [ "OknoPrzegranej", "class_okno_przegranej.html", null ]

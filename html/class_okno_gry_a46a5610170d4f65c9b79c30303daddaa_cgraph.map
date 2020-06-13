@@ -1,9 +1,9 @@
 <map id="OknoGry::odebranieDanychAkcelerometru" name="OknoGry::odebranieDanychAkcelerometru">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,188,90"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a28c98cb625bc4457650853f2ca74eb9e" title=" " alt="" coords="236,5,479,32"/>
+<area shape="rect" id="node1" title="Slot odbierający dane z akcelerometru." alt="" coords="5,49,188,90"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a28c98cb625bc4457650853f2ca74eb9e" title="Metoda formatująca dane akceleroemtru." alt="" coords="236,5,479,32"/>
 <area shape="rect" id="node3" href="$class_gracz.html#a708f5521f7bf0338758ec283e3940f00" title="Ustawia predkosc gracza." alt="" coords="288,56,427,83"/>
-<area shape="rect" id="node4" href="$class_okno_gry.html#a32c8031502704480f8feabc33a47e64c" title=" " alt="" coords="277,107,437,133"/>
+<area shape="rect" id="node4" href="$class_okno_gry.html#a32c8031502704480f8feabc33a47e64c" title="Slot tworzący nowy pocisk." alt="" coords="277,107,437,133"/>
 <area shape="rect" id="node5" href="$class_gracz.html#ac4041378e97b327d37bc0cfb792846c5" title="Zwraca pozycje gracz w osi OX." alt="" coords="565,56,679,83"/>
 <area shape="rect" id="node6" href="$class_gracz.html#ad03002bfd86ce4982954539d5a59639a" title="Zwraca pozycje gracz w osi OY." alt="" coords="565,107,679,133"/>
-<area shape="rect" id="node7" href="$class_okno_gry.html#af99362d9a15591f3a4cbf3838d0cf53d" title=" " alt="" coords="527,157,717,184"/>
+<area shape="rect" id="node7" href="$class_okno_gry.html#af99362d9a15591f3a4cbf3838d0cf53d" title="Slot znajdujący i usuwający pocisk." alt="" coords="527,157,717,184"/>
 </map>

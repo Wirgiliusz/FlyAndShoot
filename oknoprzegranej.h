@@ -16,7 +16,6 @@ class OknoPrzegranej;
 }
 
 /*!
-* \file
 * \brief Implementacja obiektu okna przegranej.
 *
 * Klasa odpowieda za obiekt okna końca gry.

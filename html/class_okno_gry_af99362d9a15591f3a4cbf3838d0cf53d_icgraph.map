@@ -1,5 +1,5 @@
 <map id="OknoGry::znajdzUsunPocisk" name="OknoGry::znajdzUsunPocisk">
-<area shape="rect" id="node1" title=" " alt="" coords="444,13,635,39"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a32c8031502704480f8feabc33a47e64c" title=" " alt="" coords="236,13,396,39"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#a46a5610170d4f65c9b79c30303daddaa" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node1" title="Slot znajdujący i usuwający pocisk." alt="" coords="444,13,635,39"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a32c8031502704480f8feabc33a47e64c" title="Slot tworzący nowy pocisk." alt="" coords="236,13,396,39"/>
+<area shape="rect" id="node3" href="$class_okno_gry.html#a46a5610170d4f65c9b79c30303daddaa" title="Slot odbierający dane z akcelerometru." alt="" coords="5,5,188,47"/>
 </map>

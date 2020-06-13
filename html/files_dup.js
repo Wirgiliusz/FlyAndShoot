@@ -4,10 +4,6 @@ var files_dup =
     [ "animacjaprzeszkody.h", "animacjaprzeszkody_8h.html", [
       [ "AnimacjaPrzeszkody", "class_animacja_przeszkody.html", "class_animacja_przeszkody" ]
     ] ],
-    [ "gamewindow.cpp", "gamewindow_8cpp.html", null ],
-    [ "gamewindow.h", "gamewindow_8h.html", [
-      [ "GameWindow", "class_game_window.html", "class_game_window" ]
-    ] ],
     [ "gracz.cpp", "gracz_8cpp.html", null ],
     [ "gracz.h", "gracz_8h.html", [
       [ "Gracz", "class_gracz.html", "class_gracz" ]

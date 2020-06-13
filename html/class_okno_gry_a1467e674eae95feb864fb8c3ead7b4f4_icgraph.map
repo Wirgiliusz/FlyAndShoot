@@ -1,5 +1,5 @@
 <map id="OknoGry::znajdzUsunPrzeszkode" name="OknoGry::znajdzUsunPrzeszkode">
-<area shape="rect" id="node1" title=" " alt="" coords="425,5,644,32"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a" title=" " alt="" coords="188,5,377,32"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#a25cae4da99ebd210096d50ce4bdb434e" title=" " alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node1" title="Slot znajdujący i usuwający przeszkodę." alt="" coords="425,5,644,32"/>
+<area shape="rect" id="node2" href="$class_okno_gry.html#a976acc4816739fcf293fb7bce7cf6d9a" title="Slot tworzący nową przeszkodę." alt="" coords="188,5,377,32"/>
+<area shape="rect" id="node3" href="$class_okno_gry.html#a25cae4da99ebd210096d50ce4bdb434e" title="Konstruktor klasy OknoGry." alt="" coords="5,5,140,32"/>
 </map>

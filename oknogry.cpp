@@ -134,11 +134,15 @@ OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     osX->setRange(0, 10);
     osY->setRange(-90 ,90);
     osX->setLabelFormat("%d");
+    osX->setTitleText("1/10 sekundy");
+    osY->setTitleText("Stopnie");
     osX2->setTickCount(11);
     osY2->setTickCount(7);
     osX2->setRange(0, 10);
     osY2->setRange(-90 ,90);
     osX2->setLabelFormat("%d");
+    osX2->setTitleText("1/10 sekundy");
+    osY2->setTitleText("Stopnie");
 
     ui->graphicsViewWykresX->setRenderHint(QPainter::Antialiasing);
     ui->graphicsViewWykresX->setChart(wykresX);

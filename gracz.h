@@ -289,7 +289,6 @@ protected slots:
     *
     * Funkcja aktualizuje obiekt na scenie,
     * na której się znajduje.
-    *
     * \param[in] step - krok aktualizacji.
     */
     void advance(int step) override;
@@ -301,7 +300,6 @@ signals:
     * Sygnał wysyłany w momencie kolizji.
     * Wysyła głównemu oknu gry informację
     * o aktualnym stanie życia.
-    *
     * \param[in] aktualneZycie - aktualna ilość żyć.
     */
     void zmniejszenieZycia(int atualneZycie);

@@ -1,3 +1,11 @@
+/*!
+* \file
+* \brief Implementacja metod klasy MainWindow.
+*
+* Plik zawiera implementację metod klasy
+* MainWindow.
+*/
+
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 

@@ -22,7 +22,7 @@ QT_END_NAMESPACE
 
 /*!
 * \file
-* \brief Implementacja obiektu głównego okna
+* \brief Implementacja obiektu głównego okna.
 *
 * Klasa odpowieda za obiekt okna głównego.
 */

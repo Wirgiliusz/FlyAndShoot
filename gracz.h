@@ -168,7 +168,7 @@ public:
 
 private:
     /*!
-    * \brief Wskaźnik na scenę
+    * \brief Wskaźnik na scenę.
     *
     * Pole zawiera wskaźnik na scenę, na której
     * wyświetlony ma zostać gracz.

@@ -1,8 +1,17 @@
+/*!
+* \file
+* \brief Implementacja metod klasy Okno gry.
+*
+* Plik zawiera implementację metod klasy
+* Okno gry.
+*/
+
 #include "oknogry.h"
 #include "ui_oknogry.h"
 #include "przeszkoda.h"
 #include "animacjaprzeszkody.h"
 #include <cmath>
+
 
 OknoGry::OknoGry(QWidget *parent, bool polaczono) :
     QDialog(parent),

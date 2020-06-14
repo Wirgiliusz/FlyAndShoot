@@ -1,7 +1,24 @@
 # FlyAndShoot
  Projekt wykorzystujący akcelerometr jako kontroler do gry w aplikacji Qt
 
-## TO-DO
+---
+
+## Opis projektu
+Projekt polegał na stworzeniu aplikacji, która w wymyślony sposób będzie wizualizowała odczytane dane sensoryczne.
+Wybranymi danymi zostały odczyty z akcelerometru *MMA7660FC* połączonego z modułem *Arduino Nano v3*, natomiast sposobem wizualizacji jest gra zręcznościowa, polegająca na omijaniu i zestrzeliwaniu przeszkód. Dodatkowo wizualizacja odbywa się także poprzez tworzone wykresy pokazujące aktualne odczyty.
+
+---
+
+## Efekt końcowy
+Poniższy obrazek pokazuje wygląd gry.
+<img src="https://puu.sh/FWlMt/915623d747.png" width="700">
+
+---
+
+### TO-DO
+<details>
+  <summary>Ukończone zadania</summary>
+  
 - [x] 1. System żyć
     - [x] a. Grafika pokazująca aktualną ilość żyć
     - [x] b. System obsługujący aktualną liczbę życia
@@ -37,3 +54,5 @@
 - [x] 5. Poprawki
     - [x] a. Zablokowanie przycisku w połączeniu
     - [x] b. Zablokować możliwość zamknięcia okna restartu gry
+  
+</details>

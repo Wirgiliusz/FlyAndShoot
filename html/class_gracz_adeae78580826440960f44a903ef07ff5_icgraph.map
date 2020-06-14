@@ -1,4 +1,0 @@
-<map id="Gracz::zmniejszenieZycia" name="Gracz::zmniejszenieZycia">
-<area shape="rect" id="node1" title="Sygnał zmniejszenia życia." alt="" coords="165,5,337,32"/>
-<area shape="rect" id="node2" href="$class_gracz.html#ada3b7e44ced95e56fa34979b310edf59" title="Slot aktualizujący pozycję na scenie." alt="" coords="5,5,117,32"/>
-</map>

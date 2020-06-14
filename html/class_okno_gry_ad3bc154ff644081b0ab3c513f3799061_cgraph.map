@@ -1,5 +1,0 @@
-<map id="OknoGry::zresetujGre" name="OknoGry::zresetujGre">
-<area shape="rect" id="node1" title="Slot resetujący grę" alt="" coords="5,5,155,32"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a263697626071a966630778358ddc1fa8" title="Slot ustawiający ilość żyć gracza." alt="" coords="234,5,398,32"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#ab9d686da05e0a067a208c7a3c2379c06" title="Metoda usuwająca wszystkie stworzone obiekty." alt="" coords="203,56,429,83"/>
-</map>

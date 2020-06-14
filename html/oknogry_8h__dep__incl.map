@@ -1,9 +1,0 @@
-<map id="oknogry.h" name="oknogry.h">
-<area shape="rect" id="node1" title="Definicja klasy MainWindow." alt="" coords="246,5,325,32"/>
-<area shape="rect" id="node2" href="$mainwindow_8h.html" title="Definicja klasy MainWindow." alt="" coords="111,80,214,107"/>
-<area shape="rect" id="node6" href="$oknogry_8cpp.html" title="Implementacja metod klasy Okno gry." alt="" coords="239,80,332,107"/>
-<area shape="rect" id="node7" href="$przeszkoda_8cpp.html" title="Implementacja metod klasy Przeszkoda." alt="" coords="356,80,471,107"/>
-<area shape="rect" id="node3" href="$main_8cpp.html" title=" " alt="" coords="5,155,80,181"/>
-<area shape="rect" id="node4" href="$mainwindow_8cpp.html" title="Implementacja metod klasy MainWindow." alt="" coords="104,155,221,181"/>
-<area shape="rect" id="node5" href="$oknopolaczenia_8cpp.html" title="Implementacja metod klasy OknoPolaczenia." alt="" coords="246,155,383,181"/>
-</map>

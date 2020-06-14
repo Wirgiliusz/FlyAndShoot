@@ -1,4 +1,0 @@
-<map id="Gracz::setPredkosc" name="Gracz::setPredkosc">
-<area shape="rect" id="node1" title="Ustawia predkosc gracza." alt="" coords="236,13,375,39"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a46a5610170d4f65c9b79c30303daddaa" title="Slot odbierający dane z akcelerometru." alt="" coords="5,5,188,47"/>
-</map>

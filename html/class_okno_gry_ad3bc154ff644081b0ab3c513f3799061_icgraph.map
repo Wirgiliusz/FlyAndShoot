@@ -1,5 +1,0 @@
-<map id="OknoGry::zresetujGre" name="OknoGry::zresetujGre">
-<area shape="rect" id="node1" title="Slot resetujący grę" alt="" coords="400,5,549,32"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#a263697626071a966630778358ddc1fa8" title="Slot ustawiający ilość żyć gracza." alt="" coords="188,5,352,32"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#a25cae4da99ebd210096d50ce4bdb434e" title="Konstruktor klasy OknoGry." alt="" coords="5,5,140,32"/>
-</map>

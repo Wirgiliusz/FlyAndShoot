@@ -1,5 +1,0 @@
-<map id="OknoGry::ustawIloscZyc" name="OknoGry::ustawIloscZyc">
-<area shape="rect" id="node1" title="Slot ustawiający ilość żyć gracza." alt="" coords="5,5,169,32"/>
-<area shape="rect" id="node2" href="$class_okno_gry.html#ad3bc154ff644081b0ab3c513f3799061" title="Slot resetujący grę" alt="" coords="217,5,367,32"/>
-<area shape="rect" id="node3" href="$class_okno_gry.html#ab9d686da05e0a067a208c7a3c2379c06" title="Metoda usuwająca wszystkie stworzone obiekty." alt="" coords="415,5,641,32"/>
-</map>

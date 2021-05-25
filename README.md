@@ -1,58 +1,25 @@
 # FlyAndShoot
- Projekt wykorzystujący akcelerometr jako kontroler do gry w aplikacji Qt
+Game with a graphical user interface – controlled by a self‑made dedicated gamepad with accelerometer responsive to gestures.
+
+[Polish version of readme](/README_pl.md)
 
 ---
 
-## Opis projektu
-Projekt polegał na stworzeniu aplikacji, która w wymyślony sposób będzie wizualizowała odczytane dane sensoryczne.
-Wybranymi danymi zostały odczyty z akcelerometru *MMA7660FC* połączonego z modułem *Arduino Nano v3*, natomiast sposobem wizualizacji jest gra zręcznościowa, polegająca na omijaniu i zestrzeliwaniu przeszkód. Dodatkowo wizualizacja odbywa się także poprzez tworzone wykresy pokazujące aktualne odczyty.
+## Project description
+The main goal of the project was to develop an graphical application which will w=visualise data received from a sensor in an interesting way.
+The used data comes from an *MMA7660FC* accelerometer which was connected with *Arduino Nano v3* microcontroller. The visualisation has a form of an arcade game, where the player can control a spaceship using a gamepad which reacts to gestures. The main goal of the game is to avoid or destroy approaching meteorites. Additionaly the application shows diagrams of received data.
 
 ---
 
-## Efekt końcowy
-Poniższy obrazek pokazuje wygląd gry.
-<img src="https://puu.sh/FWlMt/915623d747.png" width="700">
+## Results
+### Gameplay
+<img src="docs/imgs/gameplay.png" width="700">
 
----
+### Data diagrams
+<img src="docs/imgs/graphs.png" width="700">
 
-### TO-DO
-<details>
-  <summary>Ukończone zadania</summary>
-  
-- [x] 1. System żyć
-    - [x] a. Grafika pokazująca aktualną ilość żyć
-    - [x] b. System obsługujący aktualną liczbę życia
-    - [x] c. Ekran przegranej
-    - [x] d. Restart gry
-- [x] 2. Punkty
-    - [x] a. Tekst pokazujący liczbę punktów
-    - [x] b. System obsługujący punkty
-- [x] 3. Grafika
-    - [x] a. Dodanie różnych grafik dla przeszkód
-    - [x] b. Animacja otrzymania obrażeń przez gracza
-    - [x] c. Animacja zniszczenia przeszkody
-        - [x] - przeszkoda1
-        - [x] - przeszkoda2
-        - [x] - przeszkoda3
-        - [x] - przeszkoda4
-    - [x] d. Tło 
-    - [x] e. Podpisanie osi na wykresach
-    - [x] f. Ikona gry
-- [x] 4. Dokumentacja
-    - [x] a. Zainstalowanie i skonfigurowanie Doxygena
-    - [x] b. Opisanie kodu według schematu
-        - [x] animacjaprzeszkody.h/.cpp
-        - [x] gracz.h/.cpp
-        - [x] mainwindow.h/.cpp
-        - [x] oknogry.h/.cpp
-        - [x] oknopolaczenia.h/.cpp
-        - [x] oknoprzegranej.h/.cpp
-        - [x] pocisk.h/.cpp
-        - [x] przeszkoda.h/.cpp
-        - [x] tlo.h/.cpp
-        - [x] main.cpp
-- [x] 5. Poprawki
-    - [x] a. Zablokowanie przycisku w połączeniu
-    - [x] b. Zablokować możliwość zamknięcia okna restartu gry
-  
-</details>
+### Gamepad
+<img src="docs/imgs/gamepad.jpg" width="700">
+
+### Electric diagram
+<img src="docs/imgs/gamepad_electric_diagram.png" width="700">
